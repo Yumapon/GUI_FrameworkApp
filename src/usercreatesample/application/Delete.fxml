@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercreatesample.application.TaskDeleteController">
+   <children>
+      <Label layoutX="41.0" layoutY="30.0" text="削除したいタスクの番号を入力してください" />
+      <TextField fx:id="deleteNum" layoutX="90.0" layoutY="96.0" />
+      <Button layoutX="144.0" layoutY="180.0" mnemonicParsing="false" onAction="#delete" text="削除" />
+   </children>
+</Pane>

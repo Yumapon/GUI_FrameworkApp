@@ -1,0 +1,19 @@
+!!container.BusinessLogicDefinition #Bean定義設定クラスのパス
+interfaceClass: usercreatesample.businessLogic.BusinessLogic #BLクラスのインターフェースのパス
+name: bl1 #BLクラスの呼び出し名
+type: usercreatesample.businessLogic.DefaultBusinessLogic #BL実装クラスのパス
+#--- #区切り
+#!!container.BusinessLogicDefinition
+#interfaceClass: usercreatesample.businessLogic.BusinessLogic
+#name: bl2
+#type: usercreatesample.businessLogic.BusinessLogicTestB
+#---
+#!!container.BusinessLogicDefinition
+#interfaceClass: usercreatesample.businessLogic.BusinessLogic
+#name: bl3
+#type: usercreatesample.businessLogic.BusinessLogicTestC
+#---
+#!!container.BusinessLogicDefinition
+#interfaceClass: usercreatesample.businessLogic.BusinessLogic
+#name: bl4
+#type: usercreatesample.businessLogic.BusinessLogicTestD

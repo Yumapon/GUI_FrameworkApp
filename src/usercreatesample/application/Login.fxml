@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="239.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercreatesample.application.LoginController">
+   <children>
+      <Button layoutX="128.0" layoutY="180.0" mnemonicParsing="false" onAction="#loginButton" text="ログイン" />
+      <TextField fx:id="userid" layoutX="118.0" layoutY="58.0" />
+      <TextField fx:id="pass" layoutX="118.0" layoutY="122.0" />
+      <Label layoutX="39.0" layoutY="63.0" text="UserID:" />
+      <Label layoutX="45.0" layoutY="127.0" text="Pass:" />
+      <Label layoutX="148.0" layoutY="25.0" textFill="RED" />
+      <Label fx:id="error" layoutX="27.0" layoutY="25.0" prefHeight="17.0" prefWidth="273.0" text="  " textFill="RED" />
+   </children>
+</Pane>

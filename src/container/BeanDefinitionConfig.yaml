@@ -1,0 +1,15 @@
+!!container.BeanDefinition #Bean定義設定クラスのパス
+name: createTask #Beanクラスの呼び出し名
+type: usercreatesample.beans.CreateTaskEntity #Beanクラスのパス
+--- #区切り
+!!container.BeanDefinition #Bean定義設定クラスのパス
+name: userInfo #Beanクラスの呼び出し名
+type: usercreatesample.beans.UserInfoEntity #Beanクラスのパス
+--- #区切り
+!!container.BeanDefinition
+name: deleteTask
+type: usercreatesample.beans.DeleteTaskEntity
+#---
+#!!container.BeanDefinition
+#name: testC
+#type: usercreatesample.beans.TestC

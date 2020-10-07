@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercreatesample.application.TaskListController">
+   <children>
+      <Button layoutX="500.0" layoutY="14.0" mnemonicParsing="false" onAction="#createTaskButton" text="新規作成" />
+      <Label layoutX="14.0" layoutY="12.0" text="タスク一覧">
+         <font>
+            <Font name="Menlo Bold" size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutY="55.0" prefHeight="444.0" prefWidth="666.0">
+        <columns>
+          <TableColumn fx:id="NoCoumn" prefWidth="87.0" text="No" />
+          <TableColumn fx:id="taskNameColumn" prefWidth="139.0" text="タスク名" />
+            <TableColumn fx:id="taskContentColumn" prefWidth="262.0" text="タスク内容" />
+            <TableColumn fx:id="deadlineColumn" prefWidth="107.0" text="期日" />
+            <TableColumn fx:id="ClientColumn" minWidth="0.0" prefWidth="70.0" text="依頼主" />
+        </columns>
+      </TableView>
+      <Button layoutX="430.0" layoutY="14.0" mnemonicParsing="false" onAction="#deleteTaskButton" text="削除" />
+   </children>
+</AnchorPane>

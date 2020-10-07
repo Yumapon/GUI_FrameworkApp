@@ -1,0 +1,12 @@
+!!container.ActionDefinition #Action定義設定クラスのパス
+name: action #Actionクラスの呼び出し名
+type: usercreatesample.actions.Action #Actionクラスのパス
+--- #区切り
+!!container.ActionDefinition
+name: loginAction
+type: usercreatesample.actions.LoginAction
+#---
+#!!container.ActionDefinition
+#name: actionC
+#type: usercreatesample.actions.ActionTestC
+

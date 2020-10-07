@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usercreatesample.application.TaskCreateController">
+   <children>
+      <Label layoutX="22.0" layoutY="14.0" text="タスク登録">
+         <font>
+            <Font name="Menlo Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="81.0" text="タスク名" />
+      <Label layoutX="66.0" layoutY="179.0" text="内容" />
+      <Label layoutX="66.0" layoutY="132.0" text="期日" />
+      <Label layoutX="59.0" layoutY="290.0" text="依頼主" />
+      <TextArea fx:id="taskContent" layoutX="170.0" layoutY="179.0" prefHeight="87.0" prefWidth="386.0" />
+      <TextField fx:id="taskName" layoutX="170.0" layoutY="81.0" prefHeight="27.0" prefWidth="207.0" />
+      <TextField fx:id="client" layoutX="170.0" layoutY="290.0" prefHeight="27.0" prefWidth="207.0" />
+      <Button layoutX="273.0" layoutY="339.0" mnemonicParsing="false" onAction="#create" text="作成" />
+      <Button layoutX="501.0" layoutY="339.0" mnemonicParsing="false" onAction="#close" text="閉じる" />
+      <DatePicker fx:id="deadline" layoutX="170.0" layoutY="127.0" prefHeight="27.0" prefWidth="207.0" />
+   </children>
+</AnchorPane>
